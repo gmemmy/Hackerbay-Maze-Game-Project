@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Board from './view';
+import Game from './view';
 
-ReactDOM.render(<Board />, document.getElementById('root'));
+ReactDOM.render(<Game />, document.getElementById('root'));

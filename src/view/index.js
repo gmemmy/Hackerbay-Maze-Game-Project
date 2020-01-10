@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './index.css';
+import Board from '../components/board'
 
-const Board = () => {
-  return (
-    <h2>Maze Game</h2>
-  );
+class Game extends Component {
+  render() {
+    return (
+      <div className="game">
+        <div className="game-board">
+          <Board width={10} height={10} />
+        </div>
+      </div>
+    );
+  }
 }
 
-export default Board;
+export default Game;
+
